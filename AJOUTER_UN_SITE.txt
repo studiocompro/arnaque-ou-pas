@@ -1,0 +1,21 @@
+AJOUTER UN NOUVEAU SITE À « NOS SITES »
+==========================================
+
+Tu n’as PAS besoin de modifier les 6 langues ni les pages HTML.
+
+1. Ouvre : assets/js/sites-data.js
+2. Dans window.SOURCE_STUDIO_SITES, copie un bloc complet { ... },
+3. Change :
+   - icon
+   - name
+   - url
+   - desc.fr (et les autres traductions si tu veux)
+4. Enregistre le fichier.
+5. Republie le site sur Cloudflare Pages.
+
+C’est tout. Les pages FR / EN / ES / AR / ZH-CN / PT se mettent à jour automatiquement.
+
+ASTUCE : si tu n’as pas encore traduit une description, laisse seulement la version française ; le site utilisera le français par défaut.
+
+Le site « Rêves, simplement. » est déjà ajouté :
+https://reves-simplement.pages.dev/
