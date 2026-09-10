@@ -32,3 +32,7 @@ Copie un bloc de site existant dans `window.SOURCE_STUDIO_SITES`, change le nom,
 Un mémo ultra-simple est aussi fourni à la racine : `AJOUTER_UN_SITE.txt`.
 
 Le site **Rêves, simplement.** (`https://reves-simplement.pages.dev/`) est déjà inclus dans la liste.
+
+
+## Correctif rails publicitaires
+Les colonnes publicitaires gauche et droite sont désormais générées automatiquement sur toute la hauteur du contenu central. Pour modifier leur densité, changer `targetHeight=230` dans `assets/js/ads.js`.
